@@ -1,0 +1,51 @@
+.masaekle {
+    width: 100%;
+    min-height: 80vh;
+    height: auto;
+    background-color: rgb(166, 194, 206);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.eklemeislemi {
+    width: 300px;
+    height: 180px;
+    background-color: rgb(73, 156, 189);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.eklemeislemi form {
+    text-align: center;
+}
+
+.eklemeislemi form p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.eklemeislemi form input {
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    text-indent: 10px;
+    font-size: 15px;
+}
+
+.eklemeislemi form button {
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
